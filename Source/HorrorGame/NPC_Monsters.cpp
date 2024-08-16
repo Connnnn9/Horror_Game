@@ -32,3 +32,8 @@ void ANPC_Monsters::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 }
 
+UBehaviorTree* ANPC_Monsters::GetBehaviorTree() const
+{
+	return Tree;
+}
+
